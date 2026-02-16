@@ -1,0 +1,13 @@
+[project]
+name = "automonous-agentic-project"
+version = "0.1.0"
+description = "Agentic project initialization pipeline with LangGraph orchestration"
+authors = [{name = "Metasebiya"}]
+
+dependencies = [
+    "langgraph",
+    "pytest"
+]
+
+[tool.pytest.ini_options]
+pythonpath = "src"

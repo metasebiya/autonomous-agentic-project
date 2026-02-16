@@ -1,0 +1,35 @@
+﻿
+=== CONSTITUTION ===
+# Constitution
+1. No code without a spec.
+2. Every feature must have at least one test before merge.
+3. Documentation auto-generated from specs/tests.
+4. All commits must reference a Spec ID.
+5. Audit logs preserved for every orchestration run.
+
+
+=== SPEC ===
+# Spec: INIT-001 Project Initialization Agent
+As a developer, I want an autonomous agent to initialize a new project repository with scaffolding so I can begin development immediately.
+
+
+=== PLAN ===
+# Plan for INIT-001
+1. Repo Setup
+2. Branching
+3. Skeleton
+4. SpecKit Bootstrap
+5. MCP Integration
+
+
+=== TASKS ===
+# Tasks
+T-001: Initialize Git repo
+T-002: Push repo to remote
+T-003: Clone repo locally
+T-004: Create init-project branch
+T-005: Create skeleton dirs/files
+
+
+=== IMPLEMENTATION ===
+Scaffolded src/, tests/, docs/
